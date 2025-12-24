@@ -23,8 +23,8 @@ void Update(AlxWindow* w){
 	TransformedView_HandlePanZoom(&tv,window.Strokes,GetMouse());
 
 	if(Stroke(ALX_KEY_ENTER).PRESSED){
-		Enviroment_ClearScript(&ll.ev);
-		Enviroment_Script(&ll.ev,"./code/Main.ll");
+		Environment_ClearScript(&ll.ev);
+		Environment_Script(&ll.ev,"./code/Main.ll");
 	}
 
 	Clear(BLACK);
